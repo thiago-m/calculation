@@ -38,6 +38,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://nuxt-twa.tuarrep.dev
+    'nuxt-twa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
@@ -50,6 +52,11 @@ export default {
     manifest: {
       lang: 'en'
     }
+  },
+
+  // TAW module configuration: https://nuxt-twa.tuarrep.dev/setup
+  twa: {
+    host: 'calculation.pwa.thiagomarciel.dev' // Without any protocol
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
